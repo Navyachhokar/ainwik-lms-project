@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Sidebar } from "./components/lms/Sidebar";
+import { Sidebar } from "./components/lms/Sidebar.jsx";
 
 function App() {
   const [activeView, setActiveView] = useState("dashboard");

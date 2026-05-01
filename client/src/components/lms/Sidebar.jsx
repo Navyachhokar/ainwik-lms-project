@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "../../lib/utils";
+import DashboardView from "../../components/lms/DashboardView"
 import {
   LayoutDashboard,
   BookOpen,
