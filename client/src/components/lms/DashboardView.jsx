@@ -1,6 +1,6 @@
 "use client";
 
-import { CourseCard } from "./CourseCard";
+import { CourseCard } from "../lms/CourseCard.jsx";
 import {
   BookOpen,
   Trophy,
@@ -40,7 +40,7 @@ const stats = [
   },
 ];
 
-export default function DashboardView({ courses, onContinueCourse }) {
+export function DashboardView({ courses, onContinueCourse }) {
   const inProgressCourses = courses.filter(
     (c) => c.progress > 0 && c.progress < 100,
   );

@@ -4,8 +4,7 @@ import { useState } from "react";
 import { Sidebar } from "./Sidebar";
 import { DashboardView } from "./DashboardView";
 import { CoursesView } from "./CoursesView";
-import { ProfileView } from "./ProfileView";
-import { VideoPlayerView } from "./VideoPlayerView";
+
 
 
 const sampleCourses = [
@@ -18,7 +17,7 @@ const sampleCourses = [
     totalLessons: 48,
     completedLessons: 36,
     duration: "6 Months",
-    thumbnail: "/courses/mern.jpg",
+    thumbnail: "https://skillicons.dev/icons?i=mongodb,express,react,nodejs",
     category: "Web Development",
   },
   {
@@ -30,7 +29,7 @@ const sampleCourses = [
     totalLessons: 60,
     completedLessons: 27,
     duration: "4 Months",
-    thumbnail: "/courses/java.jpg",
+    thumbnail: "https://skillicons.dev/icons?i=java,spring",
     category: "Backend",
   },
   {
@@ -42,7 +41,7 @@ const sampleCourses = [
     totalLessons: 42,
     completedLessons: 13,
     duration: "3 Months",
-    thumbnail: "/courses/python.jpg",
+    thumbnail: "https://skillicons.dev/icons?i=python",
     category: "Data Science",
   },
 ];
