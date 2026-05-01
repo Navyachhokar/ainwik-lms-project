@@ -4,7 +4,8 @@ import { useState } from "react";
 import { Sidebar } from "./Sidebar";
 import { DashboardView } from "./DashboardView";
 import { CoursesView } from "./CoursesView";
-
+import { ProfileView } from "./ProfileView";
+import { VideoPlayerView } from "./VideoPlayerView";
 
 
 const sampleCourses = [
